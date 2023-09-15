@@ -3,7 +3,7 @@ Feature: DashBoard OrangeHRM
   Background:User searching for Alice employee
     Given I am in orange web page
 
-    #@goToHelpPage
+    @goToHelpPage
     Scenario: Click on the help button and should go to Help page
       Given I set the user name field with "Admin"
       And I set the password field with "admin123"
