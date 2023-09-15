@@ -11,5 +11,3 @@ Feature: DashBoard OrangeHRM
       Then The DashBoard should be displayed
       And I click on the Help button
       Then The title of Help page should be displayed
-      And I click on drop down
-      Then I click on logout button

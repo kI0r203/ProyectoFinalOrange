@@ -19,9 +19,9 @@ public class HelpSteps {
         for (String tab : allTabs) {
             if (!tab.equals(mainTab)) {
                 DriverManager.getDriver().driver.switchTo().window(tab);
-
+                Thread.sleep(1000);
                 Assertions.assertTrue(helpPage.isTitleHelpDisplayed());
-                DriverManager.getDriver().driver.close();
+                //DriverManager.getDriver().driver.close();
             }
         }
 
